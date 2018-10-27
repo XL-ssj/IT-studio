@@ -1,0 +1,201 @@
+.container{
+    width: 1920px;
+}
+
+.header{
+    height: 853px;
+    background-image: url(hero-banner-homepage.image.large_2x.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.welcome{
+    height: 275px;
+    margin: 50px 20%;
+}
+
+.part{
+    height: 270px;
+}
+
+.part-row{
+    padding-top: 50px;
+    margin: 0 auto;
+    height: 200px;
+    width: 1000px;
+}
+
+.newest{
+    height: 400px;
+}
+
+.newest-row{
+    width: 900px;
+    height: 220px;
+    position: relative;
+    left: 20%;top: 50px;
+}
+
+.notice{
+    height: 850px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.makeus{
+    width: 1000px;
+    height: 390px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.makeus-see{
+    height: 385px;
+    width: 400px;
+    padding:0px  50px;
+    float: left;
+}
+
+.makeus-fix{
+    height: 385px;
+    width: 400px;
+    padding:0px 50px;
+    float: left;
+}
+
+
+.care{
+    height:230px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.question{
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.ask{
+    height: 400px;
+    width: 450px;
+    padding-right: 50px;
+    float: left;
+}
+
+.chat{
+    height: 400px;
+    width: 450px;
+    padding-left: 50px;
+    float: left;
+}
+
+.course{
+    height: 456px;
+    background-image: url(today-at-apple-workshop-banner.image.large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.course-attend{
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.attend{
+    height: 300px;
+    width: 400px;
+    float: left;
+}
+
+.protect{
+    height: 200px;
+    width: 900px;
+    padding-top:50px; 
+    margin: 0 auto;
+}
+
+.protect-img{
+    height: 150px;
+    width: 150px;
+    float: right;
+    background-image: url(featured-content-security_2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.see{
+    height: 120px;
+    width: 900px;
+    padding-top:50px; 
+    margin: 0 auto;
+}
+
+.close{
+    height: 150px;
+    width: 900px;
+    padding-top:50px; 
+    margin: 0 auto;
+}
+
+.update{
+    height: 500px;
+    width: 900px;
+    padding-top:50px; 
+    margin: 0 auto;
+}
+
+.item{
+    text-align: center;
+    color: #0070c9;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.footer{
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    height: 30px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.others{
+    height: 199px;
+    width: 100%;
+}
+
+.box1{
+    height:180px;
+    width: 25%;
+    float: left;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background: black;
+}
+
+.right{
+    height: 30px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.box2{
+    width: 25%;
+    font-size: 10px;
+    float: left;
+}

@@ -1,0 +1,91 @@
+.change1:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.change2:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.change3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.change4:hover{
+    cursor: pointer;
+}
+
+
+.top{
+    height: 55px;
+    background-color: rgba(50, 50, 50, 0.9)
+}
+
+.top-list{
+    height: 55px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-list li{
+    height: 55px;
+    width: 60px;
+    float: left;
+    padding: 0px 1.5% 0px 1.5%;
+    color: white;
+    line-height:40px;
+}
+
+.support{
+    height: 35px;
+    width: 70%;
+    margin: 20px 15%;
+    border-bottom: 1px solid black;
+}
+
+input{
+    height: 50px;
+    width: 715px;
+    position: relative;
+    margin-top:50px; 
+    left:10% ;top: 30%;
+}
+
+.inputuse{
+    position: absolute;left: 0;z-index: 5;margin-top: 50px;
+    background-image: url(search_icon_black.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.app{
+    height: 170px;
+    width: 100px;
+    float: left;
+    padding: 0px 30px;
+}
+
+.social{
+    float: right;
+    height: 25px;
+    width: 60px;
+    margin: 10px 0px;
+}
+
+.p1{
+    height: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.other{
+    height: 1320px;
+}
+
+.footer{
+    height: 390px;
+}
