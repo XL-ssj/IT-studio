@@ -1,5 +1,5 @@
 .change1:hover{
-    color: gray;
+    opacity: 0.7;;
     cursor: pointer;
 }
 
@@ -17,49 +17,40 @@
     cursor: pointer;
 }
 
-
 .top{
-    height: 55px;
+    height: 44px;
     background-color: rgba(50, 50, 50, 0.9)
 }
 
-.top-list{
-    height: 55px;
+.top ul{
+    height: 44px;
     width: 1000px;
-    margin: 0 auto;
+    display:table;
+    margin:0 auto;
 }
 
 .top-list li{
-    height: 55px;
-    width: 60px;
+    height: 44px;
     float: left;
-    padding: 0px 1.5% 0px 1.5%;
     color: white;
-    line-height:40px;
+    margin-left: 7%;
+}
+
+.box{
+    padding-top: 10px;
 }
 
 .support{
     height: 35px;
     width: 70%;
     margin: 20px 15%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 input{
     height: 50px;
-    width: 715px;
-    position: relative;
-    margin-top:50px; 
-    left:10% ;top: 30%;
-}
-
-.inputuse{
-    position: absolute;left: 0;z-index: 5;margin-top: 50px;
-    background-image: url(search_icon_black.svg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .app{
@@ -67,6 +58,7 @@ input{
     width: 100px;
     float: left;
     padding: 0px 30px;
+    margin: 0 auto;
 }
 
 .social{
@@ -77,13 +69,13 @@ input{
 }
 
 .p1{
-    height: 80px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    height: 70px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .other{
-    height: 1320px;
+    height: 1200px;
 }
 
 .footer{

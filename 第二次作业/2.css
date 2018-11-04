@@ -3,9 +3,9 @@
 }
 
 .header{
-    height: 853px;
+    height: 725px;
     background-image: url(hero-banner-homepage.image.large_2x.jpg);
-    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
 
 }
@@ -16,49 +16,43 @@
 }
 
 .part{
-    height: 270px;
+    height: 215px;
 }
 
 .part-row{
     padding-top: 50px;
     margin: 0 auto;
-    height: 200px;
     width: 1000px;
-}
-
-.newest{
-    height: 400px;
 }
 
 .newest-row{
     width: 900px;
     height: 220px;
-    position: relative;
-    left: 20%;top: 50px;
+    margin: auto;
+    padding: 30px;
 }
 
 .notice{
-    height: 850px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .makeus{
     width: 1000px;
-    height: 390px;
+    /* height: 360px; */
     margin:0 auto;
     margin-top: 50px;
 }
 
 .makeus-see{
-    height: 385px;
+    height: 355px;
     width: 400px;
     padding:0px  50px;
     float: left;
 }
 
 .makeus-fix{
-    height: 385px;
+    height: 355px;
     width: 400px;
     padding:0px 50px;
     float: left;
@@ -66,7 +60,6 @@
 
 
 .care{
-    height:230px;
     width: 50%;
     margin: 0 auto;
     padding-top: 50px;
@@ -94,7 +87,7 @@
 }
 
 .course{
-    height: 456px;
+    height: 516px;
     background-image: url(today-at-apple-workshop-banner.image.large_2x.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -111,6 +104,10 @@
     height: 300px;
     width: 400px;
     float: left;
+}
+
+.changecolor{
+    color: white;
 }
 
 .protect{
@@ -153,7 +150,7 @@
 .item{
     text-align: center;
     color: #0070c9;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 45px;
 }
 
@@ -166,7 +163,6 @@
 .title{
     height: 30px;
     width: 100%;
-    padding: 10px 0px;
 }
 
 .others{
@@ -183,9 +179,9 @@
 }
 
 .line{
-    height: 1px;
+    height: 0.5px;
     width: 100%;
-    background: black;
+    background:#d6d6d6;
 }
 
 .right{
@@ -195,7 +191,171 @@
 }
 
 .box2{
-    width: 25%;
+    width: 20%;
     font-size: 10px;
     float: left;
+    margin:0px 9px ;
+}
+
+
+
+@media screen and (min-width:900px) and (max-width:1920px)
+{
+    .appear2{
+        display: none;
+    } 
+
+}
+
+
+
+
+@media screen and (max-width:900px)
+{
+    
+    .divider{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .appear1{
+        display: none;   
+    }
+
+    .header{
+        height: 725px;
+        background-image: url(hero-banner-homepage.image.large_2x.jpg);
+        background-position: top;
+        background-size: 1000px 350px;
+        background-repeat: no-repeat;    
+    }
+    
+    .top ul{
+        height: 44px;
+        width: 90%;
+        display:table;
+        margin:0 auto;
+    }
+    
+    .appear2-change{
+        padding-left: 32%;
+    }
+
+    .welcome{
+        margin-top: 300px;
+    }
+
+    .newest-row{
+        height: 500px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .newest-row-art{
+        margin-left: auto;
+        position: relative;
+        top: -200px;left: -15%;
+    }
+
+    .newest-row-img{
+        margin: 0 auto;
+        position: relative;
+        top: 240px;left: 20%;
+    }
+
+    .newest-row-art-change{
+        text-align: center;
+    } 
+
+    .makeus-fix{
+        clear: left;
+    }
+
+    .ask{
+        padding-left: 10%;
+    }
+
+    .chat{
+        clear: left;
+        margin: 0 auto;
+    }
+
+    .question{
+        height: 800px;
+    }
+
+    .protect{
+        padding-left: 20px;
+    }
+
+    .appear3{
+        width: 80%;
+        padding-top:50px; 
+        margin: 0 auto;
+    }
+    
+    .course{
+        height: 600px;
+        background-size: 100% 300px;
+    }
+
+    .attend{
+        position: relative;
+        top: 150px;
+        margin: 0 auto;
+    }
+
+    .changecolor{
+        color: black;
+    }
+
+    .footer{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .changebox{
+        height:15%;
+        padding: 10px 0px;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+        border-bottom: 1px solid #d6d6d6;
+    }
+    
+}
+
+
+
+@media screen and (max-width:900px) and (min-width:700px)
+{
+    .changeline1{ 
+        clear: left;
+    }
+
+    .part{
+        height: 380px;
+    }
+
+    .part-row{
+        width: 500px;
+    }
+}
+
+
+
+
+@media screen and (max-width:700px)
+{
+    .changeline2{
+        clear: left;
+    }
+
+    .part{
+        height:600px;
+    }
+
+    .part-row{
+        width: 350px;
+    }
 }
