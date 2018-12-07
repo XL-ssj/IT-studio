@@ -1,0 +1,164 @@
+    #all{
+    width: 1920px;
+    }
+    #header{
+        height: 754px;
+        background-color: #8f8876;
+        div#navigate{
+            margin: 0 auto;
+            margin-top: 31px;
+            height: 61px;
+            width: 1110px;
+            ul{
+                li{
+                    float: left;
+                    height: 16px;
+                    width: 150px;
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    line-height: 70px;
+                    letter-spacing: 0px;
+                    color: #ffffff;
+                }
+            }
+            div#chat{
+                width: 100px;
+                height: 38px;
+                float: left;
+            }
+        }
+        div#header-search{
+            margin: 0 auto;
+            height: 686px;
+            width: 1096px;
+            div#header-product{
+                margin: 0 auto;
+                height: 456px;
+                width: 1076px;
+                img#header-img1{
+                    margin: -94px 0 0 100px;
+                }
+                img#header-img2{
+
+                }
+                div#header-introduct{
+                    height: 56px;
+                    width:220px;
+                    float: left;
+                    margin: 228px 0 0 20px;
+                }
+                div#header-point{
+                    height:147px;
+                    width: 10px;
+                    line-height: 36px;
+                    float: left; 
+                    margin: 240px 0 0 20px                   
+                }
+                button{
+                    float: left;
+                    position: absolute;
+                    top:486px;left: 500px;
+                }
+            }
+            div#search-box{
+                margin: 0 auto;
+                height: 70px;
+                width: 1096px;
+                position: relative;
+                top: 160px;
+                input{
+                    height: 70px;
+                    width: 1096px;
+                   
+                } 
+                div#search-button{
+                    width: 58px;
+                    height: 70px;
+                    background: #e83653;
+                    float: left;
+                    position: absolute;
+                    top:0px;left: 40px;
+                }
+            }
+        }
+    }
+    
+    
+    
+    #container{
+        height: 2577px;
+        background-color: #e1edf7;
+        div#item-box{
+            height: 2398px;
+            width: 1760px;
+            margin: 52px 0 127px 160px;
+            div#item-top{
+                height: 751px;
+                width: 1760px;
+                position: relative;
+                div.item-top{
+                    height: 743px;
+                    width: 330px;
+                    float: left;
+                }
+                div#item-title{
+                    width: 79px;
+                    height: 190px;
+                    background-color: #c0cbd7;
+                    border-radius: 10px;
+                    float: left;
+                    margin-top: 227px;
+                }
+            }
+            div#item-other{
+                margin: 0 auto;
+                height: 1080px;
+                width:1303px; 
+                div#item-other1{
+                    height: 438px;
+                    width: 621px;
+                    float: left;
+                }
+                div#item-other2{
+                    height: 438px;
+                    width: 621px;
+                    float: left;
+                }
+            }
+            div#item-help{
+                margin: 0 auto;
+                height: 367px;
+                width: 1351px;
+            }
+        }
+    }
+    
+    .img-under{
+        position: absolute;z-index: 1;
+    }
+    .img-on{
+        position: absolute;top: 0px;z-index: 100;
+    }
+    .img-above1{
+        position: absolute;left: 700px;z-index: 100;
+    }
+    .img-above2{
+        position: absolute;left: 1300px;z-index: 100;
+    }
+    .img-above3{
+        position: absolute;left: 900px;z-index: 100;
+    }    
+    #footer{
+        height: 468px;
+        position: relative;
+        img{
+            position: absolute;
+            z-index: -1;
+        }
+        div#footer-notebox{
+            height: 220px;
+            width: 1168px;
+            margin: 208px 360px 40px 392px;
+        }
+    }
