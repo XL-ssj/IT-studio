@@ -1,0 +1,310 @@
+.index-layer {
+  width: 1920px;
+  height: 100px;
+  background-color: #8f8876; }
+  .index-layer ul {
+    margin-left: 422px; }
+    .index-layer ul li {
+      text-align: center;
+      float: left;
+      width: 125px;
+      height: 100px;
+      list-style: none;
+      font-family: " MicrosoftYaHei";
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 100px;
+      letter-spacing: 1px;
+      color: #ffffff; }
+      .index-layer ul li:hover {
+        background: url("./1-Header/retangle.png") no-repeat 50%; }
+    .index-layer ul #center {
+      width: 245px;
+      line-height: 100px; }
+      .index-layer ul #center:hover {
+        background: none; }
+  .index-layer .cart-layer {
+    width: 100px;
+    height: 38px;
+    float: right;
+    margin-right: 367px;
+    margin-top: 31px;
+    font-family: "Microsoft Himalaya";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 38px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: url("./1-Header/cart.png") no-repeat 6px -8px;
+    background-size: cover;
+    padding-left: 20px;
+    text-indent: 1em; }
+    .index-layer .cart-layer #text-box {
+      color: #8f8876;
+      margin-left: 18px;
+      margin-top: 3px;
+      display: inline-block; }
+
+.background {
+  width: 1920px;
+  height: 2235px;
+  background: #e1edf7; }
+  .background .arrow a {
+    background: #e1edf7;
+    width: 27px;
+    height: 29px;
+    margin-left: 388px;
+    margin-top: 91px;
+    background: url("./2-Container/return.png") no-repeat;
+    float: left; }
+  .background .search-box {
+    outline: none;
+    width: 690px;
+    height: 62px;
+    box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    opacity: 0.99;
+    padding-left: 100px;
+    margin-left: 20px;
+    margin-top: 70px;
+    background: #e1edf7 url("./2-Container/search box.png") no-repeat -9px -6px;
+    background-size: auto; }
+    .background .search-box:hover {
+      animation: move 2s ease-in-out 1; }
+@keyframes move {
+  0% {
+    background-size: 100%; }
+  50% {
+    background-size: 110%; }
+  100% {
+    background-size: 100%; } }
+  .background input::-ms-input-placeholder {
+    text-align: center; }
+  .background input::-webkit-input-placeholder {
+    text-align: center;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 70px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.4; }
+  .background .sort-box {
+    position: relative;
+    width: 194px;
+    height: 70px;
+    box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    opacity: 0.99;
+    float: right;
+    margin-top: 70px;
+    margin-right: 449px; }
+    .background .sort-box ul {
+      position: absolute;
+      top: -15px;
+      right: 0px; }
+      .background .sort-box ul li {
+        list-style: none;
+        width: 194px;
+        height: 70px;
+        font-family: "MicrosoftYaHei";
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 60px;
+        letter-spacing: 1px;
+        color: #000000;
+        text-align: center;
+        background: white;
+        display: none; }
+        .background .sort-box ul li:hover {
+          border: #8f8876 solid 1px;
+          box-sizing: border-box;
+          box-shadow: 0 0 10px #8f8876; }
+    .background .sort-box .artifact {
+      height: 70px;
+      font-family: MicrosoftYaHei;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 70px;
+      letter-spacing: 0px;
+      color: #000000;
+      background: #ffffff url("./2-Container/down-logo.png") no-repeat 154px 30px;
+      display: block; }
+      .background .sort-box .artifact:hover {
+        border: none;
+        box-shadow: none; }
+  .background .option div {
+    float: left; }
+  .background .option .left {
+    margin-left: 360px;
+    margin-top: 74px; }
+  .background .option .right {
+    margin-left: 20px;
+    margin-top: 74px; }
+  .background .option ul li {
+    list-style: none;
+    float: left;
+    margin-left: 168px;
+    margin-top: 74px;
+    line-height: 100%;
+    font-family: MicrosoftYaHei;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #000000; }
+  .background .artifact-list {
+    padding-top: 200px;
+    margin-left: 249px; }
+    .background .artifact-list div {
+      float: left;
+      clear: left;
+      margin-top: 28px; }
+    .background .artifact-list ul {
+      position: relative; }
+      .background .artifact-list ul li {
+        float: left;
+        list-style: none;
+        margin-left: 57px;
+        width: 285px;
+        height: 486px;
+        position: relative;
+        background: url("./2-Container/card/layer-2.png") no-repeat;
+        background-size: cover; }
+        .background .artifact-list ul li:active {
+          box-shadow: 0 010px aqua; }
+        .background .artifact-list ul li span {
+          float: left;
+          clear: left;
+          display: inline-block;
+          text-align: center;
+          width: 100%; }
+        .background .artifact-list ul li:hover {
+          animation: bg 2s ease-in-out 1;
+          animation-fill-mode: forwards;
+          box-shadow: 0 0 100px rgba(23, 177, 207, 0.2);
+          border-radius: 5%; }
+        .background .artifact-list ul li:hover .work {
+          animation: work 1s ease-in-out 1;
+          animation-fill-mode: forwards; }
+@keyframes work {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.05); } }
+@keyframes bg {
+  0% {
+    background-size: 100%; }
+  100% {
+    background-size: 103%; } }
+    .background .artifact-list .span1 {
+      font-family: MicrosoftTaiLe;
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      margin-top: 330px;
+      color: #000000;
+      opacity: 0.75; }
+    .background .artifact-list .span2 {
+      font-family: MicrosoftTaiLe;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      letter-spacing: 1px;
+      color: #000000;
+      opacity: 0.55; }
+    .background .artifact-list .span3 {
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 70px;
+      letter-spacing: 1px;
+      color: #000000; }
+    .background .artifact-list .add1 {
+      position: absolute;
+      left: 45%;
+      top: 93%; }
+    .background .artifact-list .work {
+      position: absolute;
+      display: inline-block;
+      margin-right: auto;
+      top: -39px;
+      left: 42px; }
+  .background .search {
+    width: 909px;
+    height: 50px;
+    margin-top: 1635px;
+    margin-left: auto;
+    margin-right: auto; }
+    .background .search ul {
+      height: 100%;
+      list-style-type: none;
+      margin: 0; }
+    .background .search li {
+      line-height: 50px;
+      float: left;
+      text-align: center;
+      height: 50px;
+      width: 90px; }
+    .background .search .page_btn {
+      color: #8f8876;
+      border-color: white;
+      box-shadow: white;
+      border-radius: 4px;
+      background: white;
+      margin-right: 10px;
+      text-align: center;
+      width: 90px;
+      height: 50px;
+      line-height: 8px;
+      margin-top: 6px;
+      outline: 0; }
+    .background .search .page_btn:hover {
+      color: black; }
+    .background .search span.pages_span {
+      margin-right: 10px;
+      width: 38px;
+      height: 38px;
+      position: relative;
+      top: 10px; }
+
+.layer {
+  position: relative;
+  width: 1920px;
+  height: 468px;
+  background: url("./3-Footer/layer.png") no-repeat;
+  background-size: cover; }
+  .layer img {
+    position: absolute;
+    left: 387px;
+    top: 6px; }
+  .layer .div1 {
+    padding-left: 392px; }
+  .layer div {
+    float: left;
+    margin-top: 208px;
+    font-family: "MicrosoftYaHei";
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000; }
+    .layer div .li1 h2 {
+      font-size: 24px;
+      height: 30px;
+      line-height: 30px;
+      font-family: "MicrosoftYaHei";
+      font-weight: bold;
+      letter-spacing: 0px;
+      color: #000000; }
+    .layer div li {
+      margin-left: 37px;
+      list-style: none;
+      line-height: 24px;
+      height: 24px; }
+
+/*# sourceMappingURL=ss.css.map */

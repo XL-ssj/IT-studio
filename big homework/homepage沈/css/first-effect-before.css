@@ -1,0 +1,465 @@
+#all {
+  width: 1920px; }
+
+#header {
+  height: 754px;
+  background-color: #8f8876; }
+
+#header-box {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative; }
+  #header-box div#navigate {
+    position: absolute;
+    margin-top: 31px;
+    height: 61px;
+    width: 1110px;
+    z-index: 100; }
+    #header-box div#navigate ul li {
+      float: left;
+      height: 16px;
+      width: 150px;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 70px;
+      letter-spacing: 0px;
+      color: #ffffff; }
+    #header-box div#navigate ul li#middle {
+      width: 200px;
+      height: 34px;
+      font-family: CommercialScriptBT-Regular;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 70px;
+      letter-spacing: -1px;
+      color: #ffffff;
+      opacity: 0.8; }
+    #header-box div#navigate div#chat {
+      width: 100px;
+      height: 38px;
+      float: left; }
+  #header-box div#header-search {
+    margin: 0 auto;
+    height: 686px;
+    width: 1096px; }
+    #header-box div#header-search div#header-product {
+      margin: 0 auto;
+      height: 456px;
+      width: 1076px; }
+      #header-box div#header-search div#header-product button {
+        width: 223px;
+        height: 70px;
+        border-radius: 6px;
+        border: solid 1px #f41468;
+        background-color: #f41468;
+        float: left;
+        position: absolute;
+        top: 486px;
+        left: 119px;
+        font-size: 18px;
+        line-height: 70px;
+        letter-spacing: 1px;
+        color: #ffffff; }
+      #header-box div#header-search div#header-product div#header-introduct {
+        position: absolute;
+        left: 134px;
+        top: 331px;
+        z-index: 100;
+        height: 56px;
+        width: 450px;
+        float: left;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #ffffff; }
+    #header-box div#header-search div#header-point {
+      height: 137px;
+      width: 10px;
+      line-height: 36px;
+      position: absolute;
+      left: 0px;
+      top: 344px;
+      color: #ffffff; }
+      #header-box div#header-search div#header-point span {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+        margin-top: 20px;
+        background-color: white;
+        float: left;
+        border-radius: 5px; }
+    #header-box div#header-search .header-point {
+      height: 137px;
+      width: 10px;
+      line-height: 36px;
+      position: relative;
+      left: -100px;
+      top: 100px;
+      z-index: 5000;
+      color: #ffffff; }
+      #header-box div#header-search .header-point span {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+        margin-top: 20px;
+        background-color: white;
+        float: left;
+        border-radius: 5px; }
+    #header-box div#header-search div#search-box {
+      margin: 0 auto;
+      height: 70px;
+      width: 1096px;
+      position: relative;
+      top: 255px; }
+      #header-box div#header-search div#search-box input {
+        height: 70px;
+        width: 1096px;
+        text-align: center;
+        display: block; }
+      #header-box div#header-search div#search-box div#search-button {
+        width: 58px;
+        height: 70px;
+        background: #e83653;
+        float: left;
+        position: absolute;
+        top: 3px;
+        left: 40px; }
+
+.lunbo {
+  width: 359px;
+  height: 650px;
+  position: absolute;
+  left: 350px;
+  overflow: hidden; }
+
+.lunbo ul {
+  position: relative;
+  width: 1795px; }
+
+.lunbo ul li {
+  float: left;
+  position: relative; }
+
+.lunbo #header-point .active {
+  background-color: black;
+  border-radius: 5px; }
+
+#container {
+  height: 2527px;
+  background-color: #e1edf7; }
+  #container div#item-box {
+    height: 2398px;
+    width: 1760px;
+    margin: 133px 0 0px 160px; }
+    #container div#item-box div#item-top {
+      height: 751px;
+      width: 1850px;
+      position: relative; }
+      #container div#item-box div#item-top div.item-top {
+        height: 743px;
+        width: 315px;
+        float: left;
+        position: relative; }
+      #container div#item-box div#item-top div#item-title {
+        width: 190px;
+        height: 79px;
+        background-color: #c0cbd7;
+        border-radius: 10px;
+        float: left;
+        margin-left: -55px;
+        margin-top: 227px;
+        margin-right: 89px;
+        font-family: MicrosoftTaiLe;
+        font-size: 30px;
+        text-align: center;
+        line-height: 70px;
+        letter-spacing: 1px;
+        color: #e1edf7;
+        transform: rotate(270deg); }
+    #container div#item-box div#item-other {
+      margin: 0 auto;
+      height: 1080px;
+      width: 1503px;
+      position: relative; }
+      #container div#item-box div#item-other div#item-other1 {
+        height: 438px;
+        width: 621px;
+        float: left;
+        position: relative; }
+      #container div#item-box div#item-other div#item-other2 {
+        height: 438px;
+        width: 621px;
+        float: left;
+        position: relative; }
+      #container div#item-box div#item-other div#item-other3 {
+        height: 367px;
+        width: 1351px;
+        float: left;
+        position: relative; }
+    #container div#item-box div#item-help {
+      width: 1500px;
+      height: 367px;
+      position: relative;
+      left: 100px;
+      bottom: -50px; }
+      #container div#item-box div#item-help div#help-title {
+        margin: 0 auto;
+        width: 875px;
+        height: 80px;
+        font-family: MicrosoftYaHei;
+        font-size: 100px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 36px;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 0.25; }
+      #container div#item-box div#item-help ul#help-list {
+        display: table;
+        margin-top: 42px; }
+        #container div#item-box div#item-help ul#help-list li {
+          float: left;
+          margin-left: 150px; }
+          #container div#item-box div#item-help ul#help-list li img {
+            margin-left: 20px; }
+          #container div#item-box div#item-help ul#help-list li p {
+            width: 191px;
+            height: 60px;
+            font-family: MicrosoftYaHei;
+            font-size: 30px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 36px;
+            letter-spacing: 0px;
+            color: #000000;
+            text-align: center; }
+
+.round1 {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 480px;
+  left: 130px;
+  z-index: 1000; }
+
+.round2 {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 285px;
+  left: 130px;
+  z-index: 1000; }
+
+.round3 {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 335px;
+  left: 130px;
+  z-index: 1000; }
+
+.span1 {
+  font-family: MicrosoftTaiLe;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #000000;
+  opacity: 0.75;
+  position: absolute;
+  left: 79px;
+  top: 350px;
+  z-index: 500; }
+
+.span2 {
+  font-family: MicrosoftTaiLe;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.55;
+  position: absolute;
+  left: 21px;
+  top: 397px;
+  z-index: 500; }
+
+.span3 {
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #000000;
+  position: absolute;
+  left: 85px;
+  top: 409px;
+  z-index: 500; }
+
+.span4 {
+  font-family: MicrosoftTaiLe;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #ff0f53;
+  opacity: 0.75;
+  position: absolute;
+  left: 72px;
+  top: 58px;
+  z-index: 500; }
+
+.span5 {
+  font-family: MicrosoftTaiLe;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.55;
+  position: absolute;
+  left: 71px;
+  top: 155px;
+  z-index: 500; }
+
+.span6 {
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #000000;
+  position: absolute;
+  left: 72px;
+  top: 215px;
+  z-index: 500; }
+
+.span7 {
+  font-family: MicrosoftTaiLe;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: #ff0f53;
+  opacity: 0.75;
+  position: absolute;
+  left: 91px;
+  top: 78px;
+  z-index: 500; }
+
+.span8 {
+  font-family: MicrosoftTaiLe;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.55;
+  position: absolute;
+  left: 92px;
+  top: 184px;
+  z-index: 500; }
+
+.span9 {
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #000000;
+  position: absolute;
+  left: 94px;
+  top: 260px;
+  z-index: 500; }
+
+.img-under1 {
+  height: 517px;
+  width: 303px;
+  position: absolute;
+  z-index: 1; }
+
+.img-under2 {
+  height: 320px;
+  width: 621px;
+  position: absolute;
+  z-index: 1; }
+
+.img-under3 {
+  height: 368px;
+  width: 1303px;
+  position: absolute;
+  z-index: 1; }
+
+.img-on {
+  position: absolute;
+  top: -80px;
+  z-index: 100; }
+
+.img-above1 {
+  position: absolute;
+  left: 361px;
+  top: -64px;
+  z-index: 500; }
+
+.img-above2 {
+  position: absolute;
+  left: 361px;
+  top: -64px;
+  z-index: 500; }
+
+.img-above3 {
+  position: absolute;
+  left: 452px;
+  top: -39px;
+  z-index: 500; }
+
+#footer {
+  height: 468px;
+  position: relative; }
+
+.layer {
+  position: relative;
+  width: 1920px;
+  height: 468px;
+  background: url(layer.png) no-repeat;
+  background-size: cover; }
+  .layer img {
+    position: absolute;
+    left: 387px;
+    top: 6px; }
+  .layer .div1 {
+    padding-left: 390px; }
+  .layer div {
+    float: left;
+    margin-top: 208px;
+    font-family: "MicrosoftYaHei";
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000; }
+    .layer div .li1 h2 {
+      font-size: 24px;
+      height: 30px;
+      line-height: 30px;
+      font-family: "MicrosoftYaHei";
+      font-weight: bold;
+      letter-spacing: 0px;
+      color: #000000; }
+    .layer div li {
+      margin-left: 37px;
+      list-style: none;
+      line-height: 24px;
+      height: 24px; }
+
+.bigger {
+  transition: all 0.5s ease-in-out; }
+
+.bigger:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px #66ccff; }
+
+.search-icon:hover {
+  transform: scale(0.95); }
+
+.search-icon {
+  transition: all 0.5s ease-in-out; }
+
+/*# sourceMappingURL=first-effect-before.css.map */
