@@ -1,0 +1,36 @@
+
+.containter{
+    width: 500px;
+    margin: 0 auto;
+}
+
+input{
+    outline: none;
+}
+
+
+
+.name{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.grade{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.phonenumber{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.email{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.introduct{
+    height: 50px;
+    border: 1px solid black;
+}

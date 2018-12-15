@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="11.css">
+</head>
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+</style>
+<body>
+    <form class="containter">
+        <div class="name">
+            <h3>姓名</h3>
+            <input type="text" id="text1" onblur="checkname()">
+        </div>
+        <div class="grade">
+            <h3>年级(仅允许2010--2014)</h3>
+            <input type="text" id="text2" onblur="checkgrade()">
+        </div>
+        <div class="phonenumber">
+            <h3>手机号码</h3>
+            <input type="text" id="text3" onblur="checkphonenumber()">
+        </div>    
+        <div class="email">
+            <h3>邮箱</h3>
+            <input type="text" id="text4" onblur="checkemail()">
+        </div>    
+        <div class="introduct">
+            <h3>自我介绍栏</h3>
+            <input type="text" id="text5" onblur="checkintroduct()">
+        </div>
+        <button type="submit" onclick="checkall()">提交</button>
+    </form>    
+</body>
+<script src="1.js"></script>
+</html>
